@@ -1,7 +1,7 @@
-package com.example.examplemod.platform;
+package org.teacon.xibao.platform;
 
-import com.example.examplemod.Constants;
-import com.example.examplemod.platform.services.IPlatformHelper;
+import org.teacon.xibao.Constants;
+import org.teacon.xibao.platform.services.IPlatformHelper;
 
 import java.util.ServiceLoader;
 

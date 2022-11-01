@@ -1,4 +1,6 @@
-package com.example.examplemod.platform.services;
+package org.teacon.xibao.platform.services;
+
+import java.nio.file.Path;
 
 public interface IPlatformHelper {
 
@@ -8,6 +10,7 @@ public interface IPlatformHelper {
      * @return The name of the current platform.
      */
     String getPlatformName();
+    Path getGameDir();
 
     /**
      * Checks if a mod with the given id is loaded.

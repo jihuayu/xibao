@@ -1,29 +1,24 @@
 {
     "schemaVersion": 1,
-    "id": "modid",
+    "id": "xibao",
     "version": "${version}",
   
-    "name": "Example Mod",
-    "description": "This is an example description! Tell everyone what your mod is about!",
+    "name": "Xibao",
+    "description": "",
     "authors": [
-      "Me!"
+      "TeaCon"
     ],
-    "contact": {
-      "homepage": "https://fabricmc.net/",
-      "sources": "https://github.com/FabricMC/fabric-example-mod"
-    },
-  
-    "license": "CC0-1.0",
-    "icon": "assets/modid/icon.png",
-  
+
+    "license": "Unlicense",
+
     "environment": "*",
     "entrypoints": {
       "main": [
-        "com.example.examplemod.ExampleMod"
+        "org.teacon.xibao.Xibao"
       ]
     },
     "mixins": [
-      "modid.mixins.json"
+      "xibao.mixins.json"
     ],
   
     "depends": {

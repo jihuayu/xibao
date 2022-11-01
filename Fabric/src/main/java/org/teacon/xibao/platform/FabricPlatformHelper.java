@@ -1,13 +1,20 @@
-package com.example.examplemod.platform;
+package org.teacon.xibao.platform;
 
-import com.example.examplemod.platform.services.IPlatformHelper;
+import org.teacon.xibao.platform.services.IPlatformHelper;
 import net.fabricmc.loader.api.FabricLoader;
+
+import java.nio.file.Path;
 
 public class FabricPlatformHelper implements IPlatformHelper {
 
     @Override
     public String getPlatformName() {
         return "Fabric";
+    }
+
+    @Override
+    public Path getGameDir() {
+        return FabricLoader.getInstance().getGameDir();
     }
 
     @Override
